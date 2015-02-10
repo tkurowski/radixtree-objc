@@ -58,9 +58,6 @@ static KeyMatch key_match(NSString *key, NSString *other) {
 // only the root can (and *must*) have empty key
 - (id)init {
     self = [self initWithKey:@""];
-    [self setData:nil atKey:@"a"];
-    [self setData:nil atKey:@"ab"];
-    [self setData:nil atKey:@"abc"];
     return self;
 }
 
